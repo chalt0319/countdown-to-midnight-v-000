@@ -12,7 +12,7 @@ def countdown_with_sleep(number)
  while number > 0 
     puts "#{number} SECOND(S)!"
     number -= 1 
+    number.real.to_i >= 5
   end
   "HAPPY NEW YEAR!"
- number.real.to_i >= 5
 end
